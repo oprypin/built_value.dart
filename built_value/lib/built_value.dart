@@ -129,8 +129,7 @@ class BuiltValue {
 }
 
 /// Nullable annotation for nullable Built Value fields in legacy code.
-///
-/// In null safe code, instead make the field type nullable with `?`.
+@Deprecated("Add `?` to the field type to make it nullable instead")
 const String nullable = 'nullable';
 
 /// Optionally, annotate a Built Value field with this to specify settings.
